@@ -137,30 +137,41 @@ export const PROJECTS: IProject[] = [
 export const MY_EXPERIENCE = [
     {
         title: 'Software Development Engineer Intern',
+        company: 'MiddleBank Consulting Group',
+        duration: 'Jun 2026 – Present · Auckland, New Zealand (Remote)',
+        logo: '/logo/mcg.png',
+        url: 'https://middlebank.org/',
+        description: [
+            'Architecting an end-to-end AI warehouse workflow orchestration system using LangChain, FastAPI, and Next.js to automate inventory tracking, purchase orders, and reporting across finance, supply chain, and retail verticals improving efficiency by 42%+',
+            'Developing and deploying AI-powered full-stack applications for cross-domain business operations, integrating LLM-driven decision engines with modern web interfaces to streamline workflows and accelerate decision-making across multiple group entities'
+        ],
+    },
+    {
+        title: 'Software Development Engineer Intern',
         company: 'TripFactory.com',
-        duration: 'Dec 2025 – Present',
+        duration: 'Dec 2025 – May 2026 · Bengaluru, India (On-site)',
         logo: '/logo/tripfactory.png',
         url: 'https://www.tripfactory.com/',
         description: [
-            'Developing and maintaining Core Java backend services supporting high-volume internal workflows, ensuring system reliability and performance at scale',
-            'Delivered an AI-powered backend automation solution that eliminated 90% of manual operational effort, directly improving team productivity and deployment speed'
+            'Engineered an AI-powered workflow automation using Spring Boot and LangChain4j to process 200+ tour packages from Excel into the booking platform, cutting data entry time from 3 days to 10 minutes and eliminating 95% of manual effort',
+            'Developed and maintained Core Java (Spring Boot) backend services supporting high-volume internal workflows for travel package management, ensuring system reliability and data consistency across booking pipelines'
         ],
     },
     {
         title: 'Software Development Engineer Intern',
         company: 'Thoothukudi Police – Cybercrime Branch',
-        duration: 'Jun 2025 – Nov 2025',
+        duration: 'Jun 2025 – Nov 2025 · Thoothukudi, India (Hybrid)',
         logo: '/logo/tamilnadu-police.png',
         url: 'https://www.police.tn.gov.in/',
         description: [
-            'Architected a predictive AI system using real-time data pipelines to forecast crowd density across 5+ zones, enabling proactive law enforcement deployment',
-            'Engineered a smart parking allocation system with dynamic slot management, reducing manual coordination overhead by 45%'
+            'Built and live-deployed a predictive crowd density system using XGBoost and Scikit-learn on CCTV feeds and historical data across 5+ zones, cutting deployment costs by 40% and congestion by 60%',
+            'Engineered a smart parking allocation platform using Next.js and machine learning pipelines with real-time slot availability and vehicle arrival prediction, reducing manual coordination overhead by 45% across live event deployments'
         ],
     },
     {
         title: 'Software Development Engineer Intern',
         company: "Crayon'D",
-        duration: 'Sep 2024 – Apr 2025',
+        duration: 'Sep 2024 – Apr 2025 · Chennai, India (Remote)',
         logo: '/logo/crayond.png',
         url: 'https://www.crayond.com/',
         description: [
